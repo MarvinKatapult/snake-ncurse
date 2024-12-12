@@ -5,3 +5,6 @@ BIN=snake
 
 all:
 	$(CC) -o $(BIN) $(CFLAGS) *.c -lncurses 
+
+clean:
+	rm $(BIN)
