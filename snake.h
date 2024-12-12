@@ -25,9 +25,7 @@ typedef struct _snake_food {
 } SnakeFood;
 
 Snake * newsnake( int start_parts );
-
 SnakePart * newsnakepart( int x, int y, bool is_head );
-
 void addSnakePart( Snake * snake, bool is_head );
 
 #endif
